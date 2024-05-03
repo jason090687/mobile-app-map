@@ -21,10 +21,24 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.jason090687.mobile-app-map"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      [
+        "@rnmapbox/maps",
+        {
+          "RNMapboxMapsDownloadToken": "sk.eyJ1IjoiamFzb24wOTA3OTciLCJhIjoiY2x2cTYwbjgzMDhkNzJrcnI4bHNyenR5eiJ9.5zXRZpyRdD3rJG2ekIVHPg"
+        }
+      ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "3a93d80b-4784-4e63-911f-2a513cf06ff5"
+      }
     }
   }
 }
